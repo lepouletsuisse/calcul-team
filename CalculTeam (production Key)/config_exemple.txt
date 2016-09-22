@@ -1,0 +1,27 @@
+#Caractère de commentaire
+COMMENT = ?
+
+#Ecrire dans un fichier ou dans la console. Console = 0, fichier = 1
+PRINTING = 1
+
+#Crée un résumer des équipes. 1 = Summary, 0 = None
+SUMMARY = 1
+
+#Rankings par defaut pour les UNRANKED (Set uniquement le nombre de point)
+#Si SET_DEFAULT = 1 alors on donne des point par default, sinon ignore les unranked dans le calcul des points
+SET_DEFAULT = 0
+DEFAULT_DIVISION = V
+DEFAULT_TIER = SILVER
+DEFAULT_NAME = UNRANKED
+
+#API Key
+APIKeys = production API Key
+
+#Fichier d'entree-sortie:
+INPUT_FILENAME = LoL.csv
+OUTPUT_FILENAME = Output.txt
+SUMMARY_FILENAME = Summary.txt
+SEEDING_FILENAME = Seeding.txt
+
+#Efface les fichiers temporaires. Garder = 0
+DELETE_TMP_FILES = 0
